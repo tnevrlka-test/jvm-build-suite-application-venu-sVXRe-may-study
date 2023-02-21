@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-etrn
+  namespace: jvm-build-gjcn-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:437e5d9828218eb38c5d40ec14857fa003b934aa6e6c0b83d0f00304deb4401f
+        name: container-image
+        resources: {}
+status: {}
