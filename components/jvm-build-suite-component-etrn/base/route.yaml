@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-etrn
     app.kubernetes.io/part-of: jvm-build-suite-application-venu
-  name: jvm-build-suite-componentczwt
+  name: jvm-build-suite-componentlnyt
   namespace: jvm-build-gjcn-tenant
 spec:
   port:
